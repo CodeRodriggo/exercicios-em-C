@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <locale.h>
-
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
 
     int numero;
 
@@ -12,11 +9,11 @@ int main()
 
     if (numero >= 0)
     {
-        printf("numero é: %d = POSITIVO \n", numero);
+        printf("numero e: %d = POSITIVO \n", numero);
     }
     else
     {
-        printf("numero é: %d = NEGATIVO \n", numero);
+        printf("numero e: %d = NEGATIVO \n", numero);
     }
     return 0;
 }
