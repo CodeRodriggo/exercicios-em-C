@@ -9,7 +9,7 @@ int main()
     printf("Digite seu tempo de empresa, em anos: ");
     scanf("%d", &tempoEmpresa);
 
-    if (idade >= 18 && tempoEmpresa >= 1)
+    if (idade >= 18 && tempoEmpresa >= 1) // idade e tempo iguais para da certo
     {
         printf("Acesso autorizado.\n");
     }
