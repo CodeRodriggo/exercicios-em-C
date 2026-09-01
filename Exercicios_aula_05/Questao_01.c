@@ -7,7 +7,7 @@ int main()
 
     printf("Digite sua nota: ");
     scanf("%f", &nota);
-    if (nota >= 7)
+    if (nota >= 7.0)
     {
         printf("\nAPROVADO");
     }
