@@ -10,14 +10,14 @@ int main()
 
     if (media >= 7.0)
     {
-        printf("\nAPROVADO");
+        printf("\nAPROVADO!");
     }
     else if (media >= 5.0)
     {
-        printf("\nRECUPERACAO");
+        printf("\nRECUPERACAO!");
     }
     else
     {
-        printf("\nREPROVADO");
+        printf("\nREPROVADO!");
     }
 }
