@@ -9,10 +9,10 @@ int main()
     scanf("%f", &nota);
     if (nota >= 7.0)
     {
-        printf("\nAPROVADO");
+        printf("\nAPROVADO!");
     }
     else
     {
-        printf("\nREPROVADO");
+        printf("\nREPROVADO!");
     }
 }
