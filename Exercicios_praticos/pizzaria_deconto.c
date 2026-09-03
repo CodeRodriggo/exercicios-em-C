@@ -12,7 +12,7 @@ int main()
     printf("\nDigite o desconto em porcentagem: ");
     scanf("%f", &percentual);
 
-    desconto = conta - (conta * percentual / 100); // valor subtraindo o desconto 
+    desconto = conta - (conta * percentual / 100); // valor subtraindo o desconto
     valorTotal = desconto / pessoas;
 
     printf("\nValor da conta com desconto = %.2f R$", desconto);
