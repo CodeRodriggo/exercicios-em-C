@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <locale.h>
 
-/*USANDO TERNARY OPERATOR PARA VER SE O NUMERO É PAR OU ÍMPAR*/
+// USANDO TERNARY OPERATOR(operador ternário) PARA VER SE O NUMERO É PAR OU ÍMPAR//
+// operador ternário é uma forma mais curta de escrever um if/else simples.//
 
 int main()
 {
