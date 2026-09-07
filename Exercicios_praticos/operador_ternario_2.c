@@ -11,7 +11,8 @@ int main()
     printf("\nDigite o segundo numero: ");
     scanf("%d", &numero2);
 
-    (numero1 > numero2) ? printf("\nnumero 1 é o maior") : printf("\nnumero 2 é o maior");
+    (numero1 > numero2) ? printf("\nnumero 1 e o maior") : (numero1 == numero2) ? printf("\nNumero iguais.")
+                                                                                : printf("\nnumero 2 e o maior");
 
     return 0;
 }
