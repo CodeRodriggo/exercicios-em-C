@@ -1,4 +1,3 @@
-Claro! Aqui está uma solução simples em C usando switch:
 
 #include <stdio.h>
 
