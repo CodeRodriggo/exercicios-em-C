@@ -9,21 +9,27 @@ int main()
 {
 
     char letra;
-    printf("Digite uma letra desejavel: ");
+    printf("Digite sua grade: ");
     scanf("%c", &letra);
 
     switch (letra)
     {
+        /* Usando o empilhamento de case para se caso o usuario digite
+        a letra Maiuscula o minuscula; */
     case 'A':
+    case 'a':
         printf("EXCELENTE");
         break;
     case 'B':
+    case 'b':
         printf("RAZOAVEL");
         break;
     case 'C':
+    case 'c':
         printf("RUIM");
         break;
     case 'D':
+    case 'd':
         printf("REPROVADO");
         break;
     default:
