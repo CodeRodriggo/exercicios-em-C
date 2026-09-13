@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// calcular o valor, mostrar o valor do desconto com o valor total.
 int main()
 {
 
