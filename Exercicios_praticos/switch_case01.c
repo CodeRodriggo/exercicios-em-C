@@ -5,7 +5,7 @@ int main()
 
     int number;
 
-    printf("Digite o numero do mes: ");
+    printf("Digite o dia da semana: ");
     scanf("%d", &number);
 
     switch (number)
