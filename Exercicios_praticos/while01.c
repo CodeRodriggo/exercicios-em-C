@@ -8,10 +8,10 @@ int main()
     scanf("%d", &n);
     printf("\nTabuada de multiplicacao do numero: %d", n);
 
-    while (i < 10)
+    while (i <= 10)
     {
         tabuada = i * n;
-        printf("\n%d", tabuada);
+        printf("\n%d*%d= %d", n, i, tabuada);
         i++;
     }
 }
