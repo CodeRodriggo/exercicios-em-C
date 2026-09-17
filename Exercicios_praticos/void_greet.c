@@ -1,4 +1,5 @@
 #include <stdio.h>
+// void function, função que nao retorna valor.
 
 void greet()
 {
