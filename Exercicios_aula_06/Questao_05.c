@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 /* Uma instituição financeira deseja realizar uma análise simplificada para concessão de crédito.
 O programa deverá receber:
@@ -30,20 +29,23 @@ int main()
 
     if (idade < 18)
     {
-        printf("Credito nao permitido");
+        printf("Credito nao permitido\n");
     }
     else if (renda < 2000.00)
     {
-        printf("credito nao recomendado");
+        printf("credito nao recomendado\n");
     }
     else if (renda < 5000.00)
     {
-        printf("analise adicional");
+        printf("analise adicional\n");
     }
     else
     {
-        printf("credito pre-aprovado");
+        printf("credito pre-aprovado\n");
     }
+
+    printf("\nCliente apto para prosseguir?\n\n");
+    (idade < 18 || renda < 2000.00) ? printf("Cliente inapto") : printf("Cliente Apto");
 
     return 0;
 }
