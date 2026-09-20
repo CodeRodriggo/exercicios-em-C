@@ -64,6 +64,7 @@ int main()
         break;
     default:
         printf("\nOpcao invalida.\n");
+        return 0; // esse return 0; aqui faz com que quando a opcao que seja diferente de 1 a 5 nao retorne nehunm valor.
     }
 
     valorFinal = valor - desconto;
@@ -72,4 +73,6 @@ int main()
     printf("Percentual de desconto: %.f%%\n", percentual);
     printf("Valor do desconto: %.2f\n", desconto);
     printf("Valor final: %.2f\n", valorFinal);
+
+    return 0;
 }
