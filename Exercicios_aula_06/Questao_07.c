@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Sistema de Faixa Etária
+/* Sistema de Faixa Etária:
 Desenvolva um programa que receba a idade de uma pessoa e classifique sua faixa etária:
 • 0 a 12 anos → Criança;
 • 13 a 17 anos → Adolescente;
