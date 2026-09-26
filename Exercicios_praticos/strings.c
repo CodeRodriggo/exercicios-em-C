@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// strings
 int main()
 {
     char name[50];
