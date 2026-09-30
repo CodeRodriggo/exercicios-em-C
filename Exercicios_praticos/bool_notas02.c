@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-//usando bool library
-
+// usando bool library
+// testando bool bliblioteca
 
 int main()
 {
@@ -11,14 +11,16 @@ int main()
 
     printf("Digite a sua nota: ");
     scanf("%d", &n);
-    //printf("%d reprovado");
+    // printf("%d reprovado");
 
     aprovado = n >= 7;
 
-    if(aprovado){
+    if (aprovado)
+    {
         printf("APROVADO");
-    }else{
+    }
+    else
+    {
         printf("REPROVADO");
     }
-
 }
