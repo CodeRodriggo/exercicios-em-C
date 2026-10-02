@@ -9,6 +9,7 @@ int main()
     scanf("%lf", &valor);
 
     // 3 jeitos de tirar porcentagem, mostrando o percentual ou sem.
+    // 1ª jeito com if else
     if (valor >= 1000)
     {
         percentual = 20;
