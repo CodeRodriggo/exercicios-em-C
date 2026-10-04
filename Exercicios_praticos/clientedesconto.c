@@ -10,6 +10,7 @@ int main()
 
     // 3 jeitos de tirar porcentagem, mostrando o percentual ou sem.
     // 1ª jeito com if else
+    // 2ª jeito com if else, mas calculando o percentual.
     if (valor >= 1000)
     {
         percentual = 20;
